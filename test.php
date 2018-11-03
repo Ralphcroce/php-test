@@ -12,7 +12,7 @@
 </head>
 <body>
 <?php
-echo "Hello PHP World!";
+echo "Hello PHP World (Branch B1)!!!";
 
 /*
 $servername = "localhost";
@@ -65,7 +65,7 @@ $con = mysqli_connect($host, $user, $password, $dbname, $port);
     // echo "HERE";
     echo "<br/><br/>";
     $query = "SELECT id, name FROM tbltest";
-    $query = "SELECT make, model FROM all_vehicles LIMIT 0,20";
+    $query = "SELECT make, model FROM all_vehicles LIMIT 0,200";
 
     if ($stmt = $con->prepare($query)) {
         $stmt->execute();
